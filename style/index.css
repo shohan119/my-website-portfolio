@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.welcome-banner{
+  
+  width: 1280;
+  height: 900;
+
+}
+/* welcome-banner styles start */
+  .welcome-banner{
+    background-image: url(/assets/Hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 30px 0px;
+  }
+  .welcome-banner-img{
+    text-align: center;
+    padding: 35px;
+  }
+  .welcome-banner-text{
+    text-align: center;
+    padding: 30px 220;
+  }
+  .welcome-banner-text .heading-title{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 60px;
+  }
+  .btn-primary{
+    margin-top: 20px;
+  }
+  /* welcome-banner styles end */
+  .section-title-1{
+    align-items: center;
+    text-align: center;
+  }
+  .section-padding 1{
+    margin: 50px auto;
+    text-align: center;
+    align-items: first baseline;
+    justify-content: center;
+  }
+
+  .row-section{
+    display: flex;
+    padding: 20px 95px 20px 95px;
+    
+  }
+  .row-section> .col-why-development{
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .col-why-development > .col-why-development-box{
+    padding: 35px;
+  }
+  .row-section > .col-why-development{
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-why-development > .col-why-development-box{
+  padding: 40px;
+}
+
+
+.inspiration{
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.096);
+}
+
+.inspiration-box{
+  padding: 20px 16px;
+  border-radius: 8px;
+}
+
+.inspiration-box iframe{
+  border-radius: 8px;}
+  .inspiration-box iframe{
+    border-radius: 8px;}
+      /* skills style start here */
+
+    .skill-heading{
+      text-align: center;
+    }
+ 
+    .skills-container{
+      display: flex;
+      gap: 24px;
+    }
+    .skill{
+      padding: 35px;
+      box-shadow: 0px 6px 50px 0px black;
+      margin-bottom: 48px;
+      margin-top: 111px;
+    }
+    .support-container{
+      background-color: rgb(0, 0, 0, 0.5);
+      background-image: url(/assets/handshake.jpg);
+      background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 18px;
+
+    }
+    .need-text{
+      color: white;
+      text-align: center;
+      padding: 32px 0px 25px 0px;
+    }
+    .need-text h3{
+      color: rgb(255, 255, 255);
+      font-family: Azeret Mono;
+      font-size: 30px;
+      font-weight: 700;
+    }
+    .need-text p{
+      color: rgba(255, 255, 255, 0.473);
+      font-family: Azeret Mono;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 25px;
+      }
+      .form-submit{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 0px 65px 0px;
+        margin-left: -100px;
+        
+    }
+    
+    
+    
+    form input[type="text"]{
+        padding: 15px 28px;
+        background-color: #ffffff;
+        width: 500px;
+        position: relative;
+        border-radius: 7px;
+        border: none;
+        font-size: 16px;
+        font-weight: 16px;
+    }
+    
+    form input[type="submit"]{
+        padding: 15px 28px;
+        position:absolute;
+        margin-left: 11px;
+        border-radius: 7px;
+        border: none;
+        font-size: 16px;
+        font-weight: 16px;
+    }
+
+
+    .footer-padding{
+      padding: 50px 0px 0px;
+  }
+  
+  .footer-col{
+      background-color: #0c0c0c11;
+      border-radius: 12px;
+  }
+  
+  .footer-text{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+  }
+  .footer-text h3{
+      color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      text-align: center;
+      padding-top: 18px;
+      padding-left: 12px;
+  }
+  
+/* shared style start */
+
+.btn-primary{
+  padding: 12px 24px;
+  background-color: rgb(13, 19, 33);
+  border-radius: 8px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: Azeret Mono;
+  cursor: pointer;
+}
+
