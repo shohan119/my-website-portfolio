@@ -27,6 +27,10 @@
     text-align: center;
     padding: 30px 220;
   }
+
+  .welcome-banner-text a{
+    padding: 10px 18px;
+  }
   .welcome-banner-text .heading-title{
     font-size: 32px;
     font-weight: 800;
@@ -40,7 +44,7 @@
     align-items: center;
     text-align: center;
   }
-  .section-padding 1{
+  .section-padding-1{
     margin: 50px auto;
     text-align: center;
     align-items: first baseline;
@@ -92,8 +96,14 @@
 
     .skill-heading{
       text-align: center;
+      padding: 35px 25px;
     }
  
+    .section-title{
+      text-align: center;
+    }
+
+
     .skills-container{
       display: flex;
       gap: 24px;
@@ -107,11 +117,11 @@
     }
     .support-container{
       background-color: rgb(0, 0, 0, 0.5);
-      background-image: url(/assets/handshake.jpg);
+      background-image: url(/img/Hero-bg.png);
       background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
-    border-radius: 18px;
+
 
     }
     .need-text{
